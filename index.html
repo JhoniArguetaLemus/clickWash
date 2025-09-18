@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ClickWash: Carwash a domicilio con un solo clic. Servicio rápido y eficiente.">
+    <title>ClickWash - Carwash a Domicilio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header >
+        <div class="logo">
+            <img src="images/logo.png" alt="ClickWash Logo" width="200">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#servicio">Servicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" data-aos="fade-right">
+        <h1>¡Tu Auto, Siempre Limpio! <br> Con ClickWash a Domicilio</h1>
+        <p>Reserva nuestro servicio de lavado de autos a domicilio de manera rápida y fácil.</p>
+        <a href="#contacto" class="cta-btn">Agenda tu Lavado</a>
+    </section>
+
+    <!-- Servicio -->
+    <section data-aos="fade-right" id="servicio" class="w-[95%] mx-auto bg-gray-300 mt-[2.5rem] text-[1.5rem] shadow-black/50 shadow-lg rounded-lg p-[1rem]">
+        <h2>¿Qué es ClickWash?</h2>
+
+
+        <p>ClickWash es un servicio de lavado de autos a domicilio.
+            <br> Puedes agendar un lavado a través de nuestra plataforma, y nuestro equipo de profesionales llegará hasta tu ubicación para dejar tu vehículo como nuevo.</p>
+       
+       
+    </section>
+
+    <section class="grid grid-cols-2 mt-[6rem] w-[95%] mx-auto">
+
+    <!-- Beneficios -->
+    <section data-aos="flip-left" id="beneficios" class="w-[80%] border-2 border-green-200  ease-in-out duration-100 rounded-lg p-[1rem] shadow-lg shadow-black/50">
+        <h2 class="font-bold">Beneficios de ClickWash</h2>
+        <ul>
+            <li>¡Lavado a domicilio sin salir de casa!</li>
+            <li>Servicio rápido y de calidad.</li>
+            <li>Precios competitivos y planes personalizados.</li>
+            <li>Agendamiento flexible según tu horario.</li>
+            <li>Eco-friendly con productos biodegradables.</li>
+        </ul>
+    </section>
+
+    <!-- Testimonios -->
+    <section data-aos="flip-left" id="testimonios" class="w-[80%] border-2 border-green-200  ease-in-out duration-100  rounded-lg p-[1rem] shadow-lg shadow-black/50" id="testimonios shadow-lg shadow-black/50 bg-gray-100">
+        <h2 class="font-bold">Testimonios de Nuestros Clientes</h2>
+        <div class="testimonio">
+            <p>"El mejor servicio de lavado de autos a domicilio. ¡Mi coche nunca estuvo tan limpio!" - Juan Pérez</p>
+        </div>
+        <div class="testimonio">
+            <p>"Super rápidos y eficientes. Perfecto para los que no tenemos tiempo de ir al taller." - Laura González</p>
+        </div>
+    </section>
+
+     </section>
+
+    <!-- Contacto -->
+    <section data-aos="flip-up" id="contacto" class="mt-[10rem] mb-[10rem] w-[95%] rounded-lg p-[3rem]  mx-auto shadow-black/50 shadow-lg">
+        <h2 class="text-center font-bold text-[2rem] mb-[2rem]">¡Agenda tu Lavado!</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="fecha">Fecha de Servicio:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="mensaje">Comentarios:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <button type="submit" class="cta-btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ClickWash - Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+      AOS.init();
+  </script>
+</body>
+</html>
